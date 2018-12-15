@@ -1,2 +1,3 @@
-# ConvNet-Vis
-:milky_way: ConvNet visualization methods
+# :milky_way: ConvNet-Vis
+
+ConvNet visualization methods
