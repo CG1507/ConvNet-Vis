@@ -1,6 +1,10 @@
 # :milky_way: ConvNet-Vis
 
-ConvNet visualization methods
+ConvNet-Vis helps to visualize the Deep Convolutional Neural Networks with following methds.
+
+- Activation image from each layer
+- Deconvolution
+- Deep-Dream
 
 ## Requirements:
 * Tensorflow
@@ -13,9 +17,16 @@ ConvNet visualization methods
 * scikit-image
 
 ## Run:
-Very first time it will download the weights of the model you pick, so it requires an internet connection.
-```
-python vis.py
+Very first time it will download the weights of the model you pick, so it requires an internet connection. Also you can pass custom model.
+
+```python
+import vis
+
+# For pretrained model visualization
+convnet_vis = vis.ConvNet_Vis(image_path="cat.jpg")
+
+# For custom model visualization
+convnet_vis = vis.ConvNet_Vis(image_path="cat.jpg", model="final_model.hdf5")
 ```
 
 ## For Tensorboard:
