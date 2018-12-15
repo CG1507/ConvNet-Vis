@@ -37,7 +37,7 @@ TensorBoard gives you flexibility to visualize all the test image on same model 
 tensorboard --logdir=<LOG-PATH (layerwise)>
 ```
 
-## To-do:
+## Todo:
 
 - [ ] Deep-dream support for all the model.
 
@@ -46,7 +46,7 @@ tensorboard --logdir=<LOG-PATH (layerwise)>
 
 ## Author
 
-[Ghanshyam Chodavadiya](https://github.com/CG1507)
+[<img src="https://avatars3.githubusercontent.com/u/24426731?s=460&v=4" width="70" height="70" alt="Ghanshyam_Chodavadiya">](https://github.com/CG1507)
 
 ## Acknowledgement
 
