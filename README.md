@@ -1,8 +1,8 @@
 # :milky_way: ConvNet-Vis
 
-ConvNet-Vis helps to visualize the Deep Convolutional Neural Networks with following methds.
+ConvNet-Vis helps to visualize the Deep Convolutional Neural Networks with following methods.
 
-- Activation image from each layer
+- Activation of image from each layer
 - Deconvolution
 - Deep-Dream
 
@@ -26,6 +26,7 @@ import vis
 convnet_vis = vis.ConvNet_Vis(image_path="cat.jpg")
 
 # For custom model visualization
+# model=<path-to-model> OR Keras Model obect
 convnet_vis = vis.ConvNet_Vis(image_path="cat.jpg", model="final_model.hdf5")
 ```
 
