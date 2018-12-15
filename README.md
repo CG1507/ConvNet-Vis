@@ -42,7 +42,7 @@ tensorboard --logdir=<LOG-PATH (layerwise)>
 
 ## Todo:
 
-- [ ] Deep-dream support for all the model. (Current Support only for InceptionV3)
+- [ ] Deep-dream support for all the model. **(Current Support only for InceptionV3)**
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
