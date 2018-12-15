@@ -37,12 +37,16 @@ TensorBoard gives you flexibility to visualize all the test image on same model 
 tensorboard --logdir=<LOG-PATH (layerwise)>
 ```
 
+## To-do:
+
+- [ ] Deep-dream support for all the model.
+
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
 
 ## Author
 
-[Ghanshyam Chodavadiya](https://cg1507.github.io)
+[Ghanshyam Chodavadiya](https://github.com/CG1507)
 
 ## Acknowledgement
 
