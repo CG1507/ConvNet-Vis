@@ -30,6 +30,8 @@ convnet_vis = vis.ConvNet_Vis(image_path="cat.jpg")
 convnet_vis = vis.ConvNet_Vis(image_path="cat.jpg", model="final_model.hdf5")
 ```
 
+> **NOTE:** Results will be stored in **vis** directory.
+
 ## For Tensorboard:
 
 TensorBoard gives you flexibility to visualize all the test image on same model with brightness and contrast adustment.
@@ -40,7 +42,7 @@ tensorboard --logdir=<LOG-PATH (layerwise)>
 
 ## Todo:
 
-- [ ] Deep-dream support for all the model.
+- [ ] Deep-dream support for all the model. (Current Support only for InceptionV3)
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
