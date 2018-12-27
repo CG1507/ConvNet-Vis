@@ -32,7 +32,7 @@ convnet_vis = vis.ConvNet_Vis(image_path="cat.jpg", model="final_model.hdf5")
 
 > **NOTE:** Results will be stored in **vis** directory.
 
-> **Google-Colab** support added. 
+#### **Google-Colab** support added. 
 
 ## For Tensorboard:
 
